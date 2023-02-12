@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Модуль 9 "AJAX"</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>Задания по курсу JavaScript (AJAX)</h1>
+
+            <h3>JSON vs XML</h3>
+            <h4>Задание 1.<h4>
+                <p>Написать код, который будет преобразовывать XML в JS-объект и выводить его в консоль.</p> 
+                <p>Код XML:</p>
+                <p>
+                    &lt;list&gt;<br>
+                    &lt;student&gt;<br>
+                        &lt;name lang=&quot;en&quot;&gt;<br>
+                        &lt;first&gt;Ivan&lt;/first&gt;<br>
+                        &lt;second&gt;Ivanov&lt;/second&gt;<br>
+                        &lt;/name&gt;<br>
+                        &lt;age&gt;35&lt;/age&gt;<br>
+                        &lt;prof&gt;teacher&lt;/prof&gt;<br>
+                    &lt;/student&gt;<br>
+                    &lt;student&gt;<br>
+                        &lt;name lang=&quot;ru&quot;&gt;<br>
+                        &lt;first&gt;Петр&lt;/first&gt;<br>
+                        &lt;second&gt;Петров&lt;/second&gt;<br>
+                        &lt;/name&gt;<br>
+                        &lt;age&gt;58&lt;/age&gt;<br>
+                        &lt;prof&gt;driver&lt;/prof&gt;<br>
+                    &lt;/student&gt;<br>
+                &lt;/list&gt;<br>
+                </p>
+                <p class="green">Решение: </p>
+                <p class="answer answer1" id="result1">здесь будет ответ</p>
+                <button class="btn btn1">РЕШИТЬ</button>
+                <hr>
+
+            <h4>Задание 2.<h4>
+                <p>Написать код, который будет преобразовывать JSON в JS-объект и выводить его в консоль.</p> 
+                <p>Код JSON:</p>
+                <p>
+                    {<br>
+                        &quot;list&quot;: [<br>
+                         {<br>
+                          &quot;name&quot;: &quot;Petr&quot;,<br>
+                          &quot;age&quot;: &quot;20&quot;,<br>
+                          &quot;prof&quot;: &quot;mechanic&quot;<br>
+                         },<br>
+                         {<br>
+                          &quot;name&quot;: &quot;Vova&quot;,<br>
+                          &quot;age&quot;: &quot;60&quot;,<br>
+                          &quot;prof&quot;: &quot;pilot&quot;<br>
+                         }<br>
+                        ]<br>
+                       }<br>
+                </p>
+                <p class="green">Решение: </p>
+                <p class="answer answer1" id="result2">здесь будет ответ</p>
+                <button class="btn btn2">РЕШИТЬ</button>
+                <hr>
+
+                <h3>XMLHttpRequest</h3>
+                <h4>Задание 3.<h4>
+                <p>Напишите код приложения, интерфейс которого представляет собой input и кнопку...</p> 
+                <p class="green">Введите любое число (лучше от 1 до 10), потом нажмите "РЕШЕНИЕ"</p>
+                <div class="input-wrap input-wrap3">
+                    <input class="input input3" type="number" placeholder="Введите значения">
+                </div>
+                <p></p>
+                <p class="green">Решение: </p>
+                <button class="btn btn3">РЕШИТЬ</button>
+                <div class="answer answer1" id="result3">здесь будет ответ</div>
+                
+                <hr>
+
+                <h3>Работа с HTTP (fetch, async/await)</h3>
+                <h4>Задание 4.<h4>
+                <p>Напишите код приложения, интерфейс которого представляет 2 input и кнопку submit...</p> 
+                <p class="green">Введите любое число (лучше от 100 до 300), потом нажмите "РЕШЕНИЕ"</p>
+                <div class="input-wrap input-wrap3">
+                    <input class="input input41" type="number" placeholder="Введите число">
+                    <input class="input input42" type="number" placeholder="Введите число">
+                </div>
+                <p></p>
+                <p class="green">Решение: </p>
+                <button class="btn btn4">РЕШИТЬ</button>
+                <div class="answer answer1" id="result4">здесь будет ответ</div>
+                
+                <hr>
+
+                <h3>Финальное задание</h3>
+                <h4>Задание 5.<h4>
+                <p>Напишите код приложения, интерфейс которого представляет 2 input и кнопку submit...</p> 
+                <p class="green">Введите любое число (лучше от 1 до 10), потом нажмите "РЕШЕНИЕ"</p>
+                <div class="input-wrap input-wrap3">
+                    <input class="input input51" type="number" placeholder="Введите число">
+                    <input class="input input52" type="number" placeholder="Введите число">
+                </div>
+                <p></p>
+                <p class="green">Решение: </p>
+                <button class="btn btn5">РЕШИТЬ</button>
+                <div class="answer answer1" id="result5">здесь будет ответ</div>
+                
+                <hr>
+
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
